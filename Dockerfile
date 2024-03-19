@@ -10,4 +10,4 @@ RUN npm install
 
 EXPOSE 8080
 
-CMD [ "node", "index.js" ]
+CMD [ "node:21.7.0-bookworm-slim", "index.js" ]
